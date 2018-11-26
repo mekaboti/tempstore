@@ -1,0 +1,12 @@
+tempstore filename period
+
+period 
+    Xy or Xm or Xw or Xd
+    yy/mm/dd
+    default: 1 month
+
+when information file is deleted,all files are stored for 1 month
+
+
+stored-file-list format
+filename,date(format: yy/mm/dd)
